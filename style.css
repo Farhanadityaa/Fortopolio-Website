@@ -3,7 +3,6 @@ html, body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: aqua;
 
 }
 
@@ -15,13 +14,12 @@ html, body{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color: rgb(41, 56, 44);
     
 }
 
 .container{
     height: auto;
-    background-color: rgb(58, 122, 122);
+    background-color: gray;
 }
 
 .profile img{
@@ -33,23 +31,152 @@ html, body{
 .Name{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: brown;
+    color: black;
 }
 
 .job-roles{
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(72, 12, 12);
+    color: black;
 }
-
+k
 .fa-tiktok {
     font-size: 12px;
 }
 
 .fa-instagram{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .fa-twitter {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: yellowgreen;
+}
+
+.about {
+    height: 60%;
+    background-color: burlywood;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Skills {
+    height: 50%;
+    background-color: whitesmoke;
+}
+
+.Skills-icon {
+    font-size: 5px;
+}
+
+.Skills-icon {
+    font-size: 5px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education {
+    height: 40%;
+    background-color: gray;
+}
+
+.column {
+    font-size: 10px;
+}
+
+.column {
+    font-size: 10px;
+}
+
+.column {
+    font-size: 10px;
+}
+
+.title {
+    font-size: 20   px;
+    font-weight: bold;
+}
+
+.experience {
+    height: 35%;
+    background-color: burlywood;
+}
+
+.row {
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.column {
+    font-size: 10px;
+    width: 33%;
+    float:left
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact {
+    height: 100%;
+    background-color:white;
+}
+
+.content{
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: aquamarine;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: aquamarine;
 }
